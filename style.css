@@ -1,0 +1,156 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background:rgb(255, 255, 249);
+    }
+header {
+    position: relative;
+    width: 100%;
+    height: 100px; /* Hauteur de l'en-tête */
+    background: linear-gradient(to right, #A10219 50%, #2e5977 50%); /* Dégradé pour diviser l'en-tête en deux */
+    padding: 10px; /* Espacement interne pour la lisibilité */
+    font-size: 40px;
+    display: flex; /* Utilisation de flexbox pour centrer les éléments */
+    justify-content: center; /* Centrer les éléments horizontalement */
+    align-items: center; /* Centrer les éléments verticalement */
+}
+#b{
+    color: #2e5977;
+}
+
+#c {
+    color: #A10219;
+}
+
+#scoreDisplay{
+    position: relative;
+    left: 44%;
+    width: 105px;
+    margin-top: 30px;
+	border-radius: 10px;
+  	padding: 10px;
+  	font-size: 16px;
+  	cursor: pointer;
+  	background: #A10219;
+  	color: white;
+}
+.question{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.question p::before {
+    content: url('question1.png'); /* Chemin de votre icône */
+    display: inline-block; /* Pour s'assurer que l'icône est alignée correctement */
+    margin-right: 10px; /* Espacement entre l'icône et le texte */
+}
+label{
+    margin-left: 60px;
+}
+button:hover{
+	border-radius: 10px;
+  	padding: 10px;
+  	font-size: 16px;
+  	cursor: pointer;
+  	background: #A10219;
+  	color: white;
+	}
+button {
+    position: relative;
+    left: 45%;
+    margin-top: 50px;
+	border-radius: 10px;
+  	padding: 10px;
+  	font-size: 16px;
+  	cursor: pointer;
+  	background: #101B24;
+  	color: white;
+}
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #101B24; 
+    border-radius: 50%; 
+}
+
+input[type="radio"]:checked {
+    border-color: #2e5977; 
+    border: 5px solid #2e5977 
+}
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    
+    width: 20px;
+    height: 20px;
+    border: 2px solid #101B24; 
+    border-radius: 50%; 
+}
+
+input[type="checkbox"]:checked {
+    border-color: #2e5977; 
+    border: 5px solid #2e5977}
+
+
+    /* Pour les téléphones */
+@media only screen and (max-width: 600px) {
+    header {
+        position: relative;
+        width: 100%;
+        height: 80px; /* Ajustement de la hauteur de l'en-tête */
+        font-size: 30px; /* Ajustement de la taille de la police */
+    }
+
+    #scoreDisplay {
+        left: 50%; /* Centrer horizontalement */
+        transform: translateX(-50%); /* Centrer horizontalement */
+    }
+    .question {
+        display: flex;/* Alignement vertical des boutons radio et des cases à cocher */
+        flex-direction: column;
+        margin-left: 0; /* Ajustement de la marge */
+
+    }
+
+    label {
+        margin-left: 15px; /* Ajustement de la marge */
+    }
+
+    button {
+        left: 50%; /* Centrer horizontalement */
+        transform: translateX(-50%); /* Centrer horizontalement */
+        margin-top: 30px; /* Ajustement de la marge */
+    }
+}
+
+/* Pour les tablettes et les téléphones en mode paysage */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    header {
+        height: 80px; /* Ajustement de la hauteur de l'en-tête */
+        font-size: 30px; /* Ajustement de la taille de la police */
+    }
+
+    #scoreDisplay {
+        left: 50%; /* Centrer horizontalement */
+        transform: translateX(-50%); /* Centrer horizontalement */
+    }
+
+    .question {
+        margin-left: 20px; /* Ajustement de la marge */
+    }
+
+    label {
+        margin-left: 30px; /* Ajustement de la marge */
+    }
+
+    button {
+        left: 50%; /* Centrer horizontalement */
+        transform: translateX(-50%); /* Centrer horizontalement */
+        margin-top: 30px; /* Ajustement de la marge */
+    }
+}

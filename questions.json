@@ -1,0 +1,105 @@
+[
+{
+"question": "Quel joueur a réalisé le triplé le plus rapide de la Premier League ?",
+"options": ["Mohamed Salah", "Harry Kane", "Sadio Mane"],
+"answer": 2
+},
+{
+"question": "Avec 260 buts, qui est le meilleur buteur de l'histoire de la Premier League ?",
+"options": ["Alan Shearer", "Sergio Aguero", "Harry Kane", "Thierry Henry"],
+"answer": 0
+},
+{
+"question": "Quel pays a remporté la toute première Coupe du monde en 1930 ?",
+"options": ["Uruguay", "Brésil", "Allemagne"],
+"answer": 0
+},
+
+{
+"question": "Dans quelle Coupe du monde Diego Maradona a-t-il marqué son fameux but de la main de Dieu ?",
+"options": ["Italie 1990", "Mexique 1986", "France 1998", "Etat-Unis 1994"],
+"answer": 1
+},
+{
+"question": "Deux joueurs anglais ont remporté le Soulier d'or de la Coupe du monde. Qui sont-ils ?",
+"options": ["Gary Lineker", "Wayne Rooney", "Harry Kane", "Patrick Viera"],
+"answer": [0,2]
+},
+{
+"question": "Est-il vrai que le brésil est la seule équipe au monde à avoir participé à toutes les les phases finales de la coupe du monde ?",
+"options": ["Vrai", "Faux"],
+"answer": 0
+},
+{
+"question": "Qui est le seul gardien de but à avoir remporté le Ballon d'Or ?",
+"options": ["Iker Casillas", "Gianluigi Buffon", "Lev Yachine"],
+"answer": 2
+},
+{
+"question": "Le Ballon d'Or a été décerné pour la première fois en 1956",
+"options": ["Vrai", "Faux"],
+"answer": 0
+},
+{
+"question": "Messi a fait toute sa carrière professionnelle à Barcelone, mais quelle était son premier club de football ?",
+"options": ["Aucun", "Boca Juniors", "Sporting CP", "Newell's Old Boys"],
+"answer": 3
+},
+{
+"question": "Messi portait le numéro 30 au début de sa carrière au Barça et porte aujourd'hui le numéro 10. Quel autre numéro a-t-il porté en club ?",
+"options": ["18", "11", "19", "9"],
+"answer": 2
+},
+{
+"question": "En quelle année Ronaldo a-t-il aidé le Portugal à remporter le championnat d'Europe ?",
+"options": ["2016", "2020", "2008"],
+"answer": 0
+},
+{
+"question": "Qui est le seul joueur à avoir remporté la Ligue des champions avec trois clubs différents ?",
+"options": ["Cristiano Ronaldo", "Clarence Seedorf", "Samuel Eto'o", "Gerard Piqué"],
+"answer": 1
+},
+{
+"question": "Liverpool a remporté six Ligues des champions et Manchester United trois, mais qui est la troisième équipe anglaise la plus titrée dans la compétition avec deux titres ?",
+"options": ["Machester City", "Tottenham", "Arsenal", "Nottingham Forest"],
+"answer": 3
+},
+{
+"question": "Il a fallu 27 matchs à Cristiano Ronaldo pour marquer son premier but en Ligue des champions.",
+"options": ["Vrai", "Faux"],
+"answer": 0
+},
+
+{
+"question": "La star du Bayern Munich, Thomas Müller, est un joueur d'échecs passionné et a déjà remporté un tournoi d'échecs en Bavière.",
+"options": ["Vrai", "Faux"],
+"answer": 1
+},
+{
+"question": "L'icône brésilienne Pelé a joué dans un film hollywoodien aux côtés de Michael Caine et Sylvester Stallone.",
+"options": ["Vrai", "Faux"],
+"answer": 0
+},
+{
+"question": "Frank Lampard a marqué plus de buts en Premier League que Thierry Henry, Robbie Fowler et Michael Owen.",
+"options": ["Vrai", "Faux"],
+"answer": 0
+},
+{
+"question": "Le Bayern Munich a remporté le nombre record de titres en Bundesliga, mais quels sont les deux clubs qui suivent avec cinq titres chacun ?",
+"options": ["Borussia Mönchengladbach", "Leipzig", "Eintracht Francfort", " Borussia Dortmund"],
+"answer": [0,3]
+},
+{
+    "question": "Quel joueur a marqué le but en or lors de la finale de la Coupe du Monde de la FIFA en 1998 ?",
+    "options": ["Zinédine Zidane", "Ronaldo Nazário", "Laurent Blanc", "Dennis Bergkamp"],
+    "answer": 2
+},
+{
+    "question": "Quel joueur a remporté le Soulier d'Or de la Coupe du Monde de la FIFA en 2014 ?",
+    "options": ["Lionel Messi", "Neymar Jr", "Thomas Müller", "James Rodríguez"],
+    "answer": 2
+}
+
+]
