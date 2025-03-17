@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: nginx-service
-  namespace: default   # Ajout du namespace ici
+  namespace: default   # Namespace ajouté ici
 spec:
   selector:
     app: nginx
