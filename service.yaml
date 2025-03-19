@@ -1,11 +1,16 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx
-  namespace: default   # Namespace ajouté ici
+  creationTimestamp: null
+  labels:
+    argocd.argoproj.io/instance: nginx
+  name: nd
 spec:
-  containers:
-  - name: nginx
-    image: nginx
-    ports:
-    - containerPort: 80
+  ports:
+  - port: 8089
+    protocol: TCP
+    targetPort: 8089
+  selector:
+    app: nginx
+status:
+  loadBalancer: {}
